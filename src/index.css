@@ -1,0 +1,42 @@
+:root {
+    --background-color: #0d0d0d;
+    --surface-color: rgba(28, 28, 30, 0.6);
+    /* Translucent surface for glass effect */
+    --text-primary: #ffffff;
+    --text-secondary: #a1a1aa;
+    --accent-color: #2dd4bf;
+    /* Teal accent */
+    --divider-color: rgba(255, 255, 255, 0.1);
+    --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+    /* Teal gradient */
+    background-attachment: fixed;
+    /* Fix gradient on scroll */
+    min-height: 100vh;
+    color: var(--text-primary);
+    font-family: var(--font-family);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-family: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
