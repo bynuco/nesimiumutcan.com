@@ -7,14 +7,7 @@ const Hero = () => {
     const { t } = useLanguage();
 
     const styles = {
-        container: {
-            padding: '120px 20px 80px',
-            textAlign: 'center',
-            maxWidth: '1000px',
-            margin: '0 auto',
-            position: 'relative',
-            zIndex: 1,
-        },
+
         bgGlow: {
             position: 'absolute',
             top: '50%',
@@ -86,7 +79,7 @@ const Hero = () => {
     };
 
     return (
-        <div style={styles.container}>
+        <div className="hero-container">
             <div style={styles.bgGlow}></div>
 
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginBottom: '40px' }}>
