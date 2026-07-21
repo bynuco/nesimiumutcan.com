@@ -155,15 +155,27 @@ const AppCard = ({ app }) => {
                 {app.links.map((link, index) => (
                     <PrimaryButton key={index} label={link.label} url={link.url} />
                 ))}
-                <Link
-                    to={`/${app.id}/support`}
-                    style={{ ...styles.button, ...styles.supportButton }}
-                    onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(45, 212, 191, 0.2)'}
-                    onMouseLeave={(e) => e.currentTarget.style.background = 'rgba(45, 212, 191, 0.1)'}
-                >
-                    <FaHeadset />
-                    {t('support')}
-                </Link>
+                {app.id === 'good-iptv-player' ? (
+                    <a
+                        href="/good-iptv-player/support/"
+                        style={{ ...styles.button, ...styles.supportButton }}
+                        onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(45, 212, 191, 0.2)'}
+                        onMouseLeave={(e) => e.currentTarget.style.background = 'rgba(45, 212, 191, 0.1)'}
+                    >
+                        <FaHeadset />
+                        {t('support')}
+                    </a>
+                ) : (
+                    <Link
+                        to={`/${app.id}/support`}
+                        style={{ ...styles.button, ...styles.supportButton }}
+                        onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(45, 212, 191, 0.2)'}
+                        onMouseLeave={(e) => e.currentTarget.style.background = 'rgba(45, 212, 191, 0.1)'}
+                    >
+                        <FaHeadset />
+                        {t('support')}
+                    </Link>
+                )}
             </div>
         </div>
     );
