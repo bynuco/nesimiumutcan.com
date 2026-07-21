@@ -20,7 +20,7 @@ export const appsData = [
         description: 'goodIptvDesc', // Translation key
         icon: goodIptvLogo,
         links: [
-            { label: 'App Store', url: '#' },
+            { label: 'App Store', url: 'https://apps.apple.com/app/id6756851305' },
             { label: 'Google Play', url: 'https://play.google.com/store/apps/details?id=com.nesimiumutcanozturk.goodiptvplayer&hl=en' }
         ],
         supportEmail: 'nesimiztrk@gmail.com'

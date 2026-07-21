@@ -34,7 +34,7 @@ export const translations = {
         akorKitabiDesc: 'Find chords for your favorite songs, add them to favorites, and create your own repertoire. A vaste chord archive developed for musicians, constantly updated.',
         akorKitabiCategory: 'Music & Education',
 
-        goodIptvDesc: 'The best IPTV experience for your Android and TV devices. Redefine your TV enjoyment with fast channel switching, modern interface, and multi-playlist support.',
+        goodIptvDesc: 'Add your own M3U/M3U8 playlist or Xtream access details and organize live TV, movies and series with EPG, search, favorites and PIN controls. No content is included.',
         goodIptvCategory: 'Video & TV',
     },
     tr: {
@@ -60,7 +60,7 @@ export const translations = {
         emailPlaceholder: 'E-posta Adresiniz',
         messagePlaceholder: 'Mesajınız...',
         submitButton: 'Destek E-postası Gönder',
-        or: 'VEYSA',
+        or: 'VEYA',
 
         // Form
         subjectPrefix: 'Destek Talebi: ',
@@ -72,7 +72,7 @@ export const translations = {
         akorKitabiDesc: 'En sevdiğiniz şarkıların akorlarını bulun, favorilerinize ekleyin ve kendi repertuvarınızı oluşturun. Müzisyenler için geliştirilmiş, sürekli güncellenen geniş akor arşivi.',
         akorKitabiCategory: 'Müzik & Eğitim',
 
-        goodIptvDesc: 'Android ve TV cihazlarınız için en iyi IPTV deneyimi. Hızlı kanal geçişleri, modern arayüz ve çoklu liste desteği ile televizyon keyfini yeniden tanımlayın.',
+        goodIptvDesc: 'Kendi M3U/M3U8 listenizi veya Xtream erişim bilgilerinizi ekleyin; canlı TV, film ve dizileri EPG, arama, favoriler ve PIN ile düzenleyin. İçerik dahil değildir.',
         goodIptvCategory: 'Video & TV',
     },
     de: {
@@ -110,7 +110,7 @@ export const translations = {
         akorKitabiDesc: 'Finden Sie Akkorde für Ihre Lieblingssongs, fügen Sie sie zu Favoriten hinzu und erstellen Sie Ihr eigenes Repertoire. Ein riesiges Akkordarchiv für Musiker, das ständig aktualisiert wird.',
         akorKitabiCategory: 'Musik & Bildung',
 
-        goodIptvDesc: 'Das beste IPTV-Erlebnis für Ihre Android- und TV-Geräte. Definieren Sie Ihren TV-Genuss neu mit schnellem Kanalwechsel, moderner Benutzeroberfläche und Unterstützung für mehrere Wiedergabelisten.',
+        goodIptvDesc: 'Fügen Sie Ihre eigene M3U/M3U8-Liste oder Xtream-Zugangsdaten hinzu und organisieren Sie Live-TV, Filme und Serien mit EPG, Suche, Favoriten und PIN. Inhalte sind nicht enthalten.',
         goodIptvCategory: 'Video & TV',
     },
     ru: {
@@ -146,7 +146,35 @@ export const translations = {
         akorKitabiDesc: 'Находите аккорды для любимых песен, добавляйте их в избранное и создавайте свой репертуар. Огромный архив аккордов для музыкантов, который постоянно обновляется.',
         akorKitabiCategory: 'Музыка и образование',
 
-        goodIptvDesc: 'Лучший опыт IPTV для ваших Android и TV устройств. Переосмыслите удовольствие от телевидения с быстрым переключением каналов, современным интерфейсом и поддержкой нескольких плейлистов.',
+        goodIptvDesc: 'Добавляйте собственный список M3U/M3U8 или данные Xtream и упорядочивайте телеканалы, фильмы и сериалы с EPG, поиском, избранным и PIN. Контент не предоставляется.',
         goodIptvCategory: 'Видео и ТВ',
+    },
+    es: {
+        heroTitleStart: 'Soluciones digitales',
+        heroTitleEnd: 'para el mundo moderno',
+        heroSubtitle: 'Diseño experiencias rápidas y cuidadas que convierten ideas en productos digitales útiles.',
+        contactButton: 'Contactar',
+        projects: 'Proyectos',
+        website: 'Sitio web',
+        support: 'Soporte',
+        appNotFound: 'Aplicación no encontrada',
+        backToHome: 'Volver al inicio',
+        contactUs: 'Contacta con nosotros',
+        contactText: 'Valoramos tus comentarios. Usa el formulario para preguntas, sugerencias o solicitudes de soporte técnico.',
+        writeYourselfText: 'Si prefieres escribir el correo directamente:',
+        emailLabel: 'Correo:',
+        namePlaceholder: 'Tu nombre',
+        emailPlaceholder: 'Tu correo electrónico',
+        messagePlaceholder: 'Tu mensaje...',
+        submitButton: 'Enviar correo de soporte',
+        or: 'O',
+        subjectPrefix: 'Solicitud de soporte: ',
+        bodyName: 'Nombre: ',
+        bodyEmail: 'Correo: ',
+        bodyMessage: 'Mensaje: ',
+        akorKitabiDesc: 'Encuentra acordes, guárdalos en favoritos y crea tu propio repertorio.',
+        akorKitabiCategory: 'Música y educación',
+        goodIptvDesc: 'Añade tu propia lista M3U/M3U8 o datos de Xtream y organiza TV en directo, películas y series con EPG, búsqueda, favoritos y PIN. No incluye contenido.',
+        goodIptvCategory: 'Vídeo y TV',
     }
 };
